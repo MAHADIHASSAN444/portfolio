@@ -1,0 +1,10 @@
+.projectCard:hover {
+    background-color: tomato;
+    color: black;
+    box-shadow: 5px 5px 20px #F2F2F2;
+    border-radius: 10px;
+    
+}
+.projectCard:hover h2{
+    color:cyan;
+}

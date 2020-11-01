@@ -3,8 +3,9 @@ import {Link} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import {AppBar,Toolbar,ListItem,IconButton,ListItemText,
 Avatar,Divider,List,Typography,Box, ListItemIcon} from "@material-ui/core"
-import {ArrowBack,AssignmentInd,Home,Apps,ContactMail} from "@material-ui/icons"
+import {ArrowBack,AssignmentInd,Home,Apps,ContactMail,AccountBoxIcon} from "@material-ui/icons"
 import avatar from "../../avatar.png";
+
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 
 const useStyles = makeStyles(theme=>({
@@ -32,20 +33,27 @@ const menuItems =[
     listText: "Home",
     listPath:"/"
     },
+   
+    {
+        listIcon: <Apps/>,
+        listText: "Project",
+        listPath:"/Project"
+    },
+    {
+        listIcon: <AssignmentInd/> ,
+        listText: "About",
+        listPath:"/About"
+    },
+   
     {
         listIcon: <AssignmentInd/>,
         listText: "Resume",
         listPath:"/resume"
     },
     {
-        listIcon: <Apps/>,
-        listText: "Portfolio",
-        listPath:"/"
-    },
-    {
         listIcon: <ContactMail/>,
-        listText: "Contacts",
-        listPath:"/"
+        listText: "Contact",
+        listPath:"/Contact"
     },
         
 ]

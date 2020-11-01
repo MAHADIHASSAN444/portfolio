@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {Typography,Avatar,Grid,Box} from "@material-ui/core"
-import avatar from "../../avatar.png";
+import avatar from "../../mehedi.jpg";
 import Typed from 'react-typed';
+import Foter from '../Foter/Foter';
 
 const useStyles = makeStyles(theme =>({
     avatar:{
@@ -45,6 +46,7 @@ const Header = () => {
                 typeSpeed={40} backSpeed={40} loop/>
             </Typography>
             <br/>
+            <Foter/>
         </Box>
     );
 };

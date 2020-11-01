@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import {AppBar,Toolbar,ListItem,IconButton,ListItemText,
 Avatar,Divider,List,Typography,Box, ListItemIcon} from "@material-ui/core"
 import {ArrowBack,AssignmentInd,Home,Apps,ContactMail,AccountBoxIcon} from "@material-ui/icons"
-import avatar from "../../avatar.png";
+import avatar from "../../mehedi.jpg";
 
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 
